@@ -13,14 +13,14 @@ import {
 export let title: string = PUBLIC_OG_TITLE;
 export let description: string = PUBLIC_OG_DESCRIPTION;
 export let og_image: URL = new URL('/og.jpg', PUBLIC_BASE_URL);
-export let keywords: string[] = ['Inside the Sandbox', 'Deadline Always Exists'];
+// export let keywords: string[] = ['Inside the Sandbox', 'Deadline Always Exists'];
 </script>
 
 <MetaTags
   additionalMetaTags={[
-    { name: 'keywords', content: keywords.join(', ') },
-    { name: 'author', content: 'Inside the Sandbox, Deadline Always Exists' },
-    { name: 'twitter:creator', content: '@ExistsAlways' }
+    // { name: 'keywords', content: keywords.join(', ') },
+    // { name: 'author', content: 'Inside the Sandbox, Deadline Always Exists' },
+    // { name: 'twitter:creator', content: '@ExistsAlways' }
   ]}
   {description}
   facebook={{
@@ -34,7 +34,7 @@ export let keywords: string[] = ['Inside the Sandbox', 'Deadline Always Exists']
   }}
   {title}
   twitter={{
-    site: '@ExistsAlways',
+    // site: '@ExistsAlways',
     title,
     description,
     cardType: 'summary_large_image',
